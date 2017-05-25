@@ -1483,7 +1483,7 @@ lib/readline/rltty.c
 support/mksysdefs
 	- added code a la trn `Configure' to search a list of include
 	  directories for each .h file of interest.  Done by defining a
-	  variable containing the code fragement we want to execute and
+	  variable containing the code fragment we want to execute and
 	  calling `eval' on this string for each file
 
 lib/readline/bind.c
