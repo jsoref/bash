@@ -173,7 +173,7 @@ jobs.c
 	- change logic that decides whether or not the child process blocked
 	  or handled SIGINT based on whether or not waitpid returns -1/EINTR
 	  and the shell receives a SIGINT and the child does not exit.  If
-	  the child later exits due to SIGINT, cancel the assumoption that it
+	  the child later exits due to SIGINT, cancel the assumption that it
 	  was handled
 	- instead of testing whether or not the child exited due to SIGINT
 	  when deciding whether the shell should act on a SIGINT it received
