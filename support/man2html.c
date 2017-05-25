@@ -2849,7 +2849,7 @@ scan_request(char *c)
 		case V('S', 'S'):
 			mode = 1;
 		case V('S', 'h'):	/* BSD mandoc */
-			/* hack for fallthru from above */
+			/* hack for fallthrough from above */
 			mandoc_command = !mode || mandoc_command;
 		case V('S', 'H'):
 			c = c + j;
