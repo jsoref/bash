@@ -7584,7 +7584,7 @@ jobs.c
 lib/readline/complete.c
 	- rl_display_match_list: when calculating common prefix to display in
 	  color, make sure we correctly handle a common prefix with a trailing
-	  `/' as we do when checking whether or not to add an ellipis.
+	  `/' as we do when checking whether or not to add an ellipsis.
 	  printable_part() doesn't return the whole pathname if it ends in a
 	  slash, to avoid printing null strings, so we have to make sure we
 	  have the entire prefix
@@ -9060,7 +9060,7 @@ lib/readline/complete.c
 	- fnprint: now takes an additional argument: the full, expanded pathname
 	  corresponding to the `toprint' argument
 	- fnprint: don't zero out prefix_bytes if we're not printing the
-	  ellipisis but we still want to use prefix_bytes for displaying
+	  ellipsis but we still want to use prefix_bytes for displaying
 	  the common prefix in a color
 	- print_filename: move colored-stats display responsibility into fnprint
 	- fnprint: change so colored-prefix and colored-stats can cooperate
