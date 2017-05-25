@@ -1108,7 +1108,7 @@ builtins/mkbuiltins.c
 	  (-H) has been supplied being run through gettext
 
 configure.in
-	- new cofiguration option, --enable-single-help-strings (on by default),
+	- new configuration option, --enable-single-help-strings (on by default),
 	  causes help text to be stored as a single string (or smaller set than
 	  one string per line)
 
