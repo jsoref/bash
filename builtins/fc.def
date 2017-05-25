@@ -116,7 +116,7 @@ extern FILE *sh_mktmpfp __P((char *, int, char **));
      fc -e - [pat=rep ...] [command]
      fc -s [pat=rep ...] [command]
 
-   Equivalent to !command:sg/pat/rep execpt there can be multiple PAT=REP's.
+   Equivalent to !command:sg/pat/rep except there can be multiple PAT=REP's.
 */
 
 /* Data structure describing a list of global replacements to perform. */

@@ -1689,7 +1689,7 @@ documentation/bash.1, lib/readline/doc/rluser.texinfo
 
 general.c
 	- changed set_signal_handler for posix systems to attempt to
-	  restart all interrupted system calls execept for SIGALRM
+	  restart all interrupted system calls except for SIGALRM
 
 trap.c
 	- changed restore_signal to use set_signal_handler() instead of
