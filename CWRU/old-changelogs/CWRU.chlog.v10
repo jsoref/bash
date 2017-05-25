@@ -1065,7 +1065,7 @@ endian.c
 	- include <sys/types.h> for size_t
 
 Makefile.inc
-	- new file, included in cpp-Makefile, providing biolerplate Gnu
+	- new file, included in cpp-Makefile, providing boilerplate Gnu
 	  make definitions
 
 cpp-Makefile
