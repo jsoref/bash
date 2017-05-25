@@ -539,7 +539,7 @@ o `complete' and `compgen' now take a `-o value' option, which controls some
                     directory names and suppress trailing spaces
 o A new loadable builtin, realpath, which canonicalizes and expands symlinks
   in pathname arguments.
-o When `set' is called without options, it prints function defintions in a
+o When `set' is called without options, it prints function definitions in a
   way that allows them to be reused as input.  This affects `declare' and 
   `declare -p' as well.  This only happens when the shell is not in POSIX
    mode, since POSIX.2 forbids this behavior.
