@@ -6403,7 +6403,7 @@ examples/loadables/{{log,base,dir}name,tty,pathchk,tee}.c
 
 		logname basename dirname tty pathchk tee
 
-configuure.in, config.h.in
+configure.in, config.h.in
 	- look for tzset(3), define HAVE_TZSET if found
 
 subst.c
