@@ -84,7 +84,7 @@ shell.c
 	- fixed a typo: PENDANTIC -> PEDANTIC
 
 machines.h
-	- took -DREVERESED_SETVBUF_ARGS out of the entries for Xenix 386
+	- took -DREVERSED_SETVBUF_ARGS out of the entries for Xenix 386
 
 cpp-Makefile
 	- added double quotes around the RHS of the assignment to
