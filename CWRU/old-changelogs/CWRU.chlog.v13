@@ -8241,7 +8241,7 @@ config-bot.h
 	- undef COND_REGEXP if the OS doesn't provide posix regexp support
 
 doc/bashref.texi
-	- documnent new --enable-cond-regexp option to configure
+	- document new --enable-cond-regexp option to configure
 
 				   8/18
 				   ----
