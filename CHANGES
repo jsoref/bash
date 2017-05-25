@@ -6149,7 +6149,7 @@ and the previous version, bash-2.04-release.
 
 1.  Changes to Bash
 
-a.  A fix was made to allow newlines in compond array assignments.
+a.  A fix was made to allow newlines in compound array assignments.
 
 b.  configure now checks for real-time signals with unusable values.
 
