@@ -7816,7 +7816,7 @@ The following variables are set by the shell.
 @c  pathname, instance of BASH, search path, internal field separators,
 @c  shell script, password file, system spool directory, primary prompt
 @c  string, secondary prompt string, execution trace, decoded prompt
-@c  string, exapnsion, end-of-file characters, exit, pathname
+@c  string, expansion, end-of-file characters, exit, pathname
 @c  expansion, history expansion, tokenization, symbolic links, logical
 @c  chain of directories, complete a hostname, directory stack
 
