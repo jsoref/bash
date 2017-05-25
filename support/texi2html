@@ -1756,7 +1756,7 @@ $WARN  = "**";                          # prefix for warnings
                                         # program home page
 $PROTECTTAG = "_ThisIsProtected_";	# tag to recognize protected sections
 
-$CHAPTEREND = "<!-- End chapter -->\n"; # to know where a chpater ends
+$CHAPTEREND = "<!-- End chapter -->\n"; # to know where a chapter ends
 $SECTIONEND = "<!-- End section -->\n"; # to know where section ends
 $TOPEND     = "<!-- End top     -->\n"; # to know where top ends
 
