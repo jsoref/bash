@@ -115,7 +115,7 @@ $T2H_OPTIONS -> {debug} =
 {
  type => '=i',
  linkage => \$main::T2H_DEBUG,
- verbose => 'output HTML with debuging information',
+ verbose => 'output HTML with debugging information',
 };
 
 $T2H_DOCTYPE = '<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">'; 
