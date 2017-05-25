@@ -1033,7 +1033,7 @@ print_redirection_list (redirects)
   was_heredoc = 0;
   while (redirects)
     {
-      /* Defer printing the here document bodiess until we've printed the rest of the
+      /* Defer printing the here document bodies until we've printed the rest of the
          redirections, but print the headers in the order they're given.  */
       if (redirects->instruction == r_reading_until || redirects->instruction == r_deblank_reading_until)
 	{
