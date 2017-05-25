@@ -468,7 +468,7 @@ execute_cmd.h
 	- new file, with extern declarations from execute_cmd.c
 
 subst.c, builtins/type.def, variables.h, builtins/exec.def, builtins/hash.def,
-shell.c, buitlins/common.c, execute_cmd.c, mailcheck.c
+shell.c, builtins/common.c, execute_cmd.c, mailcheck.c
 	- include execute_cmd.h
 
 cpp-Makefile, builtins/Makefile

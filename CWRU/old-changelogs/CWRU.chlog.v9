@@ -1777,7 +1777,7 @@ builtins/exec.def, builtins/common.c
 builtins/fc.def, builtins/history.def
 	- added a $DEPENDS_ON HISTORY line
 
-builtins/mkbuitins.c
+builtins/mkbuiltins.c
 	- line_error should not try to print error_directory without checking
 	  to see whether it is NULL
 

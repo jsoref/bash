@@ -2651,7 +2651,7 @@ will eventually be successful, but the operating system will kill
 @c what if you have running (background) jobs?
 @c ? bfox: they just keep silently running ?
 @c  csh sends hup to children when logs up, bash currently doesn't
-@c  might change it -- if so, add nohup biltin
+@c  might change it -- if so, add nohup builtin
 
 It is much better to bring the stopped jobs to the foreground
 (@pxref{Resuming}) and terminate them properly, so that can clean up
