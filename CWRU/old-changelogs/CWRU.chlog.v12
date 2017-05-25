@@ -6127,7 +6127,7 @@ configure.in
 lib/readline/readline.c
 	- in rl_forward, if rl_point ends up being < 0, set it to 0
 
-lib/readline/exammples/excallback.c
+lib/readline/examples/excallback.c
 	- new callback example code, from `Jeff Solomon <jsolomon@stanford.edu>'
 
 lib/sh/getcwd.c
