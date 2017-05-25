@@ -9041,7 +9041,7 @@ configure.in
 	  version is 4.2 or greater
 
 variables.h
-	- new variable attribiute, noassign, with its accompanying test macro,
+	- new variable attribute, noassign, with its accompanying test macro,
 	  noassign_p.  Completely internal, not user-settable
 
 execute_cmd.c
