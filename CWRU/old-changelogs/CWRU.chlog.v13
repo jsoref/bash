@@ -2419,7 +2419,7 @@ lib/sh/snprintf.c
 	  an unsigned long that is greater than LONG_MAX
 
 externs.h
-	- extern declarations for fmtulong, fmtulloing, strtoull
+	- extern declarations for fmtulong, fmtullong, strtoull
 	- extern declarations for uitos, uinttostr
 
 				   10/16
