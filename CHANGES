@@ -7557,7 +7557,7 @@ j.  An arithmetic expression error in a $((...)) expansion now causes a
     non-interactive shell running in posix mode to exit.
 
 k.  Compound array assignment now splits the words within the parentheses
-    on shell metacharacters like the parser would before expansing them
+    on shell metacharacters like the parser would before expanding them
     and performing the assignment.  This is for compatibility with ksh-93.
 
 l.  The internal shell backslash-quoting code (used in the output of `set'
