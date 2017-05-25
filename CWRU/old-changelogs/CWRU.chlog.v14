@@ -8535,7 +8535,7 @@ shell.c
 	  shell startup
 
 configure.in
-	- new configure `enable' option --enable-exended-glob-default, to
+	- new configure `enable' option --enable-extended-glob-default, to
 	  set the initial default value of the `extglob' shell option
 
 config.h
