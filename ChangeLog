@@ -11328,7 +11328,7 @@ subst.c
 	- expand_word_internal: when adding an IFS character to the accumulated
 	  string, don't quote it if word expansion is not going to be
 	  performed ((word->flags & (W_NOSPLIT|W_NOSPLIT2)) == 0) in the
-	  default case.  This was already the case everwhere else, when we did
+	  default case.  This was already the case everywhere else, when we did
 	  `goto add_ifs_character;'.  Fixes bug reported by Ibrahim M. Ghazal
 	  <imgx64@gmail.com>
 
