@@ -7475,7 +7475,7 @@ externs.h
 				    ---
 lib/glob/glob.c
 	- handle alloca() failing (it's supposed to return NULL)
-	- use malloc() (with its attendent bookkeeping) instead of alloca()
+	- use malloc() (with its attendant bookkeeping) instead of alloca()
 	  in glob_filename()
 
 subst.c
