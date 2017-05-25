@@ -2698,7 +2698,7 @@ lib/sh/snprintf.c
 	- number, lnumber: if an explicit precision is supplied, turn off the
 	  zero-padding flag and set the pad character back to space
 	- number, lnumber: only account for a `+' when performing the field
-	  width calculation if the coversion is base 10; we don't add a `+'
+	  width calculation if the conversion is base 10; we don't add a `+'
 	  for other bases
 
 				   4/18
