@@ -2288,7 +2288,7 @@ elsif ($T2H_EXPAND eq 'tex')
 $T2H_INVISIBLE_MARK = '<IMG SRC="invisible.xbm">' if $T2H_INVISIBLE_MARK eq 'xbm';
 
 #
-# file name buisness
+# file name business
 #
 die "Need exactly one file to translate\n$T2H_FAILURE_TEXT" unless @ARGV == 1;
 $docu = shift(@ARGV);
