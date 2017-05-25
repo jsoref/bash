@@ -1391,7 +1391,7 @@ $INFO = 0;              # 0 = do not make a "About this document..." section
 #
 #Switches for Linking to other documents 
 #
-# actuall -- we don't care
+# actually -- we don't care
 
 $MAX_SPLIT_DEPTH = 0;	# Stop making separate files at this depth
 
