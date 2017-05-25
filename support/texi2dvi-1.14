@@ -379,7 +379,7 @@ for command_line_filename in ${1+"$@"}; do
       EMPTY)
         TEXINPUTS=$TEXINPUTS$path_sep
         ;;
-      [\\/]* | ?:[\\/]*)        # Absolute paths don't need to be expansed.
+      [\\/]* | ?:[\\/]*)        # Absolute paths don't need to be expanded.
         TEXINPUTS=$TEXINPUTS$path_sep$dir
         ;;
       *)
@@ -395,7 +395,7 @@ for command_line_filename in ${1+"$@"}; do
       EMPTY)
         INDEXSTYLE=$INDEXSTYLE$path_sep
         ;;
-      [\\/]* | ?:[\\/]*)        # Absolute paths don't need to be expansed.
+      [\\/]* | ?:[\\/]*)        # Absolute paths don't need to be expanded.
         INDEXSTYLE=$INDEXSTYLE$path_sep$dir
         ;;
       *)
