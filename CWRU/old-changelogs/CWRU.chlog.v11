@@ -8225,7 +8225,7 @@ mailcheck.c
 				   11/22
 				   -----
 lib/readline/bind.c
-	- fixed extern declaration of _rl_parsing_coditionalized_out
+	- fixed extern declaration of _rl_parsing_conditionalized_out
 	  to match declaration in readline.c
 
 				   11/25
