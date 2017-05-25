@@ -1536,7 +1536,7 @@ pathexp.c
 	  between brackets in an ERE bracket expression are not inappropriately
 	  quoted with backslashes.  This is a pretty substantial change,
 	  should be stressed when opening bash up for alpha and beta tests.
-	  Fixes bug pointed out by Stephane Chazleas
+	  Fixes bug pointed out by Stephane Chazelas
 	  <stephane_chazelas@yahoo.fr>
 
 doc/{bash.1,bashref.texi}

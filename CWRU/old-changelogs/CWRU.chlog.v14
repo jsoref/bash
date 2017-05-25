@@ -5317,7 +5317,7 @@ lib/readline/input.c
 
 builtins/type.def
 	- change exit status of `type' to not successful if any of the
-	  requested commands are not found.  Reported by Stephane Chazleas
+	  requested commands are not found.  Reported by Stephane Chazelas
 	  <stephane_chazelas@yahoo.fr>
 
 pcomplete.c
@@ -6138,7 +6138,7 @@ execute_cmd.c
 variables.c
 	- when reading the initial environment, don't create variables with
 	  names that are not valid shell identifiers.  Fixes bug reported by
-	  Stephane Chazleas <stephane_chazelas@yahoo.fr>
+	  Stephane Chazelas <stephane_chazelas@yahoo.fr>
 
 				   5/13
 				   ----
@@ -7553,7 +7553,7 @@ Makefile.in
 
 builtins/mapfile.def
 	- make sure the callback quantum (-c option argument) is > 0.  Fixes
-	  bug reported by Stephane Chazleas <stephane_chazelas@yahoo.fr>
+	  bug reported by Stephane Chazelas <stephane_chazelas@yahoo.fr>
 
 				   2/23
 				   ----
@@ -7768,7 +7768,7 @@ parse.y
 subst.c
 	- string_list_dollar_at now checks for Q_PATQUOTE, which getpattern()
 	  uses to denote Q_DOUBLE_QUOTES (?).  Fixes a=abcd echo "${a#$*}"
-	  when IFS= and args are `a b' as noted by Stephane Chazleas
+	  when IFS= and args are `a b' as noted by Stephane Chazelas
 	  <stephane_chazelas@yahoo.fr>
 	- param_expand now checks for Q_PATQUOTE and treats it identically
 	  to Q_DOUBLE_QUOTES when expanding $*
@@ -7778,7 +7778,7 @@ subst.c
 	  the W_NOSPLIT bit in the word flags before calling
 	  expand_word_internal if $IFS is NULL, just like expand_word_unsplit.
 	  It is now virtually identical to expand_word_unsplit.  Rest of fix for
-	  problems reported by Stephane Chazleas <stephane_chazelas@yahoo.fr>
+	  problems reported by Stephane Chazelas <stephane_chazelas@yahoo.fr>
 
 				   3/20
 				   ----
