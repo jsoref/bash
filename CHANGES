@@ -3539,7 +3539,7 @@ l.  Fixed a problem with the callback interface that caused it to fail when
 m.  Fixed a bug that could cause a core dump when an edited history entry was
     re-executed under certain conditions.
 
-n.  Fixed a bug that caused readline to reference freed memory when attmpting
+n.  Fixed a bug that caused readline to reference freed memory when attempting
     to display a portion of the prompt.
 
 3.  New Features in Bash
