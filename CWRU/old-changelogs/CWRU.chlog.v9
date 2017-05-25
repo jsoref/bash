@@ -3050,7 +3050,7 @@ cpp-Makefile
 
 support/fixdist
 	- changes to make things work with ansi_stdlib.h (basically just
-	  dupliating the lines for posixstat.h)
+	  duplicating the lines for posixstat.h)
 
 alias.h, braces.c, expr.c, general.h, hash.h, vprint.c,
 builtins/fc.def, builtins/getopts.def, lib/glob/glob.c,
