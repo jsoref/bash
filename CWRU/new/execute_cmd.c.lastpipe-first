@@ -1830,7 +1830,7 @@ execute_disk_command (words, redirects, command_line, pipe_in, pipe_out,
   if (command)
     put_command_name_into_env (command);
 
-  /* We have to make the child before we check for the non-existance
+  /* We have to make the child before we check for the non-existence
      of COMMAND, since we want the error messages to be redirected. */
   if (make_child (savestring (command_line), async) == 0)
     {

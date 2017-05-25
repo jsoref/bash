@@ -178,7 +178,7 @@ machines.h, cpp-Makefile
 	  makes in libraries
 
 support/mksysdefs
-	- check for the existance of /usr/include/dirent.h, define
+	- check for the existence of /usr/include/dirent.h, define
 	  HAVE_DIRENT_H if there
 
 				   2/11
