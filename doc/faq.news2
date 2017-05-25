@@ -1875,7 +1875,7 @@ a better loadable interface to perl with access to the shell builtins and
 	variables (contributions gratefully accepted)
 ksh93-like `nameref' variables
 ksh93-like `xx.yy' variables (including some of the .sh.* variables) and
-	associated disipline functions
+	associated discipline functions
 Some of the new ksh93 pattern matching operators, like backreferencing
 
 H5) When will the next release appear?
