@@ -1584,7 +1584,7 @@ lib/readline/complete.c
 	  filename quoting function to change the quote character (e.g., for
 	  bash to change a filename containing a `!' and started with a
 	  double quote by the user into a filename with the `!' quoted by
-	  a backslas and no double quote)
+	  a backslash and no double quote)
 
 				    5/8
 				    ---
