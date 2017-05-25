@@ -8061,7 +8061,7 @@ lib/readline/display.c
 				   ----
 lib/glob/glob.c
 	- in glob_vector, don't add an empty pathname ("") if we're adding the
-	  currect directory to the dirlist and GX_NULLDIR is set -- we can just
+	  current directory to the dirlist and GX_NULLDIR is set -- we can just
 	  ignore it, since the passed directory name (".") was created by
 	  the caller.  Fixes bug reported by Matt Zyzik <matt.zyzik@nyu.edu>
 
