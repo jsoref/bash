@@ -764,7 +764,7 @@ doc/{bash.1,bashref.texi}
 
 arrayfunc.c
 	- expand_compound_array_assignment: defer expansion of words between
-	  parens when performing compound assignmnt to an associative array
+	  parens when performing compound assignment to an associative array
 	  variable
 	- assign_compound_array_list: perform the same expansions when doing
 	  a compound array assignment to an associative array variable as
@@ -5004,7 +5004,7 @@ variables.c
 expr.c
 	- set lasttok = NUM in all of the functions that result in a number,
 	  even if it's a boolean, to avoid errors with constructs like
-	  1 * x = 1, which should be an asignment error.  Fixes problem
+	  1 * x = 1, which should be an assignment error.  Fixes problem
 	  pointed out by Dan Douglas <ormaaj@gmail.com>
 
 parse.y
