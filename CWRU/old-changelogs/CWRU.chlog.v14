@@ -9745,7 +9745,7 @@ lib/readline/complete.c
 	  matches: complete_get_screenwidth; changed uses of _rl_screenwidth
 	  to use complete_get_screenwidth().
 	- change complete_get_screenwidth to query (readline-private)
-	  _rl_completion_colums, $COLUMNS, then _rl_screenwidth in that order
+	  _rl_completion_columns, $COLUMNS, then _rl_screenwidth in that order
 	- change rl_display_match_list to deal with limit < 0 (which implies
 	  that cols == 0) when _rl_screenwidth > 0
 
