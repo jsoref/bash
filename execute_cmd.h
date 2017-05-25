@@ -35,7 +35,7 @@ struct func_array_state
   };
 #endif
 
-/* Variables delared in execute_cmd.c, used by many other files */
+/* Variables declared in execute_cmd.c, used by many other files */
 extern int return_catch_flag;
 extern int return_catch_value;
 extern volatile int last_command_exit_value;
@@ -58,7 +58,7 @@ extern char *the_printed_command_except_trap;
 extern char *this_command_name;
 extern SHELL_VAR *this_shell_function;
 
-/* Functions delared in execute_cmd.c, used by many other files */
+/* Functions declared in execute_cmd.c, used by many other files */
 
 extern struct fd_bitmap *new_fd_bitmap __P((int));
 extern void dispose_fd_bitmap __P((struct fd_bitmap *));
