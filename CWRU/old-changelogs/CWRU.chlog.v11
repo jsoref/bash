@@ -1810,7 +1810,7 @@ documentation/{bash.1,features.texi}
 				   9/25
 				   ----
 lib/readline/display.c
-	- fixed up the calcluation of the correct cursor line number (a `+'
+	- fixed up the calculation of the correct cursor line number (a `+'
 	  and `-' were transposed in the calculation of `nleft')
 
 				   9/26
