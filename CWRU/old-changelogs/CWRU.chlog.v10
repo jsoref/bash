@@ -1389,7 +1389,7 @@ documentation/bash.1, documentation/features.texi
 	  their effects on the shell's behavior
 
 machines.h
-	- added a generic desription for SVR4 running on the sparc from
+	- added a generic description for SVR4 running on the sparc from
 	  Ian Stewartson
 
 Makefile
