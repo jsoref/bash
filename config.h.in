@@ -377,7 +377,7 @@
    Usually this is either `int' or `gid_t'.  */
 #undef GETGROUPS_T
 
-/* Characteristics of the machine archictecture. */
+/* Characteristics of the machine architecture. */
 
 /* If using the C implementation of alloca, define if you know the
    direction of stack growth for your system; otherwise it will be
