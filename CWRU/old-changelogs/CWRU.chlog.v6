@@ -822,7 +822,7 @@ execute_cmd.c
                                    10/14
                                    -----
 lib/readline/vi_mode.c
-	- make rl_vi_ccmment insert a space after inserting `:' as the
+	- make rl_vi_comment insert a space after inserting `:' as the
 	  comment character
 
 builtins/getopt.c
