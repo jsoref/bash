@@ -7166,7 +7166,7 @@ bashhist.c
 	  lines from the history file even if it's more than $HISTSIZE
 	- maybe_save_shell_history: after calling write_history(), set
 	  history_lines_in_file to history_lines_written_to_file, since we
-	  can assume that we read everyhing we just wrote
+	  can assume that we read everything we just wrote
 
 builtins/history.def
 	- history_builtin: after calling read_history (history -r), set the
