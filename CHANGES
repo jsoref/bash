@@ -4389,7 +4389,7 @@ y.  Fixed a problem that could cause here documents to not be created correctly
 2.  Changes to Readline
 
 a.  Change to history expansion functions to treat `^' as equivalent to word
-    one, as the documention states.
+    one, as the documentation states.
 
 b.  Some changes to the display code to improve display and redisplay of
     multibyte characters.
