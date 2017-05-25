@@ -43,7 +43,7 @@ subst.c
 	  This is in accordance with Posix.2.
 
 general.c
-	- strip_trailing () has aquired a new flag telling whether to strip
+	- strip_trailing () has acquired a new flag telling whether to strip
 	  all white space or just trailing newlines.
 
 variables.c
