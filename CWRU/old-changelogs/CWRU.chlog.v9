@@ -407,7 +407,7 @@ subst.c
 	- monster reformat
 
 variables.c
-	- added a function find_variable_internal that can be explictly told
+	- added a function find_variable_internal that can be explicitly told
 	  to search the temporary environment, changed find_variable to call
 	  it
 	- changed all variables and functions from the initial shell

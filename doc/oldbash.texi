@@ -375,7 +375,7 @@ character (usually referred to as @key{RET} in this documentation).
 
 In the following example, BASH displayed its prompt (@samp{bash$ }),
 we typed the command @samp{who} (terminated by a @key{RET}, which is
-not explictly shown in the example), the output of @code{who} (a listing
+not explicitly shown in the example), the output of @code{who} (a listing
 of users logged into the system) was displayed, and BASH displayed
 another prompt.
 

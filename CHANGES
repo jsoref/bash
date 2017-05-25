@@ -6114,7 +6114,7 @@ e.  Fixed a file descriptor leak in the history file manipulation code that
     /dev/null).
 
 f.  Some existing variables are now documented and part of the public
-    interface (declared in readline.h):  rl_explict_arg, rl_numeric_arg,
+    interface (declared in readline.h):  rl_explicit_arg, rl_numeric_arg,
     rl_editing_mode, rl_last_func.
 
 g.  Renamed rltty_set_default_bindings to rl_tty_set_default_bindings and
