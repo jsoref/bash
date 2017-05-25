@@ -6610,7 +6610,7 @@ _ImageMagick()
 		-visual)
 			COMPREPLY=( $( compgen -W 'StaticGray GrayScale \
 					StaticColor PseudoColor TrueColor \
-					DirectColor defaut visualid' -- $cur ))
+					DirectColor default visualid' -- $cur ))
 			return 0
 			;;
 	esac
