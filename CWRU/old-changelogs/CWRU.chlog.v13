@@ -3199,7 +3199,7 @@ doc/builtins.1
 				   -----
 stringlib.c
 	- new function, find_token_in_alist, takes a token value and an
-	  ALIST argument, and returns the string correspoinding to the
+	  ALIST argument, and returns the string corresponding to the
 	  token if found in the alist
 
 externs.h
