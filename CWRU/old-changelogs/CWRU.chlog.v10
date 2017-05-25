@@ -2285,7 +2285,7 @@ builtins/reserved.def
 				   2/18
 				   ----
 cpp-Makefile
-	- provide alternate defintions for build_builtins_in_dir depending
+	- provide alternate definitions for build_builtins_in_dir depending
 	  on whether __STDC__ is defined and > 0.  The `stdc' version uses
 	  `##' to concatenate tokens
 

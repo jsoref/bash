@@ -5964,7 +5964,7 @@ lib/readline/display.c
 				   3/14
 				   ----
 examples/functions/csh-compat
-	- replaced the defintion for `alias' with a better one posted to
+	- replaced the definition for `alias' with a better one posted to
 	  usenet by Mohit Aron <aron@cs.rice.edu>
 
 				   3/15

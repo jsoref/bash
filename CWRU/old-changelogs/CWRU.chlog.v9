@@ -375,7 +375,7 @@ cpp-Makefile
 	- set SHELL=MAKE_SHELL if MAKE_SHELL is defined
 	- added support for the LD_HAS_NO_DASH_L definition from machines.h
 	- PROGRAM -> Program
-	- support for the new LD_HAS_NO_DASH_L machine defintion variable
+	- support for the new LD_HAS_NO_DASH_L machine definition variable
 
 execute_cmd.c
 	- removed the subshell_environment variable
@@ -1256,7 +1256,7 @@ lib/readline/emacs_keymap.c
 	  non-incremental-search-forward
 
 lib/readline/readline.h
-	- extern defintions for rl_noninc_{forward,backward}_search
+	- extern definitions for rl_noninc_{forward,backward}_search
 
 lib/readline/funmap.c
 	- added names `non-incremental-forward-search-history' and

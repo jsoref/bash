@@ -3371,7 +3371,7 @@ INPUT_LINE: while ($_ = &next_line) {
 	  }
 	  else
 	  {
-	    warn "$ERROR: Bad macro defintion $_"
+	    warn "$ERROR: Bad macro definition $_"
 	  }
 	  next;
 	}

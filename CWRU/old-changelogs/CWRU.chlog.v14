@@ -7473,7 +7473,7 @@ configure.in
 	- call AC_C_RESTRICT
 
 config.h.in
-	- add empty defintion for `restrict'
+	- add empty definition for `restrict'
 
 pcomplete.c
 	- use unwind_protects around call to execute_shell_function in

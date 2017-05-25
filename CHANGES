@@ -6127,7 +6127,7 @@ g.  Renamed rltty_set_default_bindings to rl_tty_set_default_bindings and
 a.  A new loadable builtin, realpath, which canonicalizes and expands symlinks
     in pathname arguments.
 
-b.  When `set' is called without options, it prints function defintions in a
+b.  When `set' is called without options, it prints function definitions in a
     way that allows them to be reused as input.  This affects `declare' and
     `declare -p' as well.
 
