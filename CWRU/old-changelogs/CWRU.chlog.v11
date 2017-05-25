@@ -728,7 +728,7 @@ lib/readline/readline.c
 jobs.c
 	- new variable `freeze_jobs_list' to set when changes to the jobs
 	  list or status of jobs in the list (other than calling something
-	  like `jobs -n') are undesirable.  This is set when execuing traps
+	  like `jobs -n') are undesirable.  This is set when executing traps
 	  on SIGCHLD
 
 				    8/1
