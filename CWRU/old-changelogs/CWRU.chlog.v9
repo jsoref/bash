@@ -3406,7 +3406,7 @@ execute_cmd.c
 	- make find_user_command_in_path return a pathname if it exists
 	  and the caller wants FS_EXISTS files.  This affects the `.'
 	  builtin and files as script arguments to the shell (shell.c)
-	- clamp the highest-numbered file descriptior at 256 in
+	- clamp the highest-numbered file descriptor at 256 in
 	  close_all_files().
 
 jobs.c
