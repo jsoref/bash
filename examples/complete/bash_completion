@@ -7870,7 +7870,7 @@ _lvchange()
 	prev=${COMP_WORDS[COMP_CWORD-1]}
 
 	case "$prev" in
-		-@(a|A|C|M|-available|-autobackup|-continguous|-persistent))
+		-@(a|A|C|M|-available|-autobackup|-contiguous|-persistent))
 			COMPREPLY=( $( compgen -W 'y n' -- $cur ) )
 			return 0
 			;;
@@ -7902,7 +7902,7 @@ _lvcreate()
 	prev=${COMP_WORDS[COMP_CWORD-1]}
 
 	case "$prev" in
-		-@(A|C|M|Z|-autobackup|-continguous|-persistent|-zero))
+		-@(A|C|M|Z|-autobackup|-contiguous|-persistent|-zero))
 			COMPREPLY=( $( compgen -W 'y n' -- $cur ) )
 			return 0
 			;;
