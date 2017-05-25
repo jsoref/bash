@@ -6186,7 +6186,7 @@ execute_cmd.c
 execute_cmd.c
 	- changed code in execute_command_internal that executes subshell
 	  commands to check for command->type == cm_subshell in addition to
-	  checking that commmand->flags & CMD_WANT_SUBSHELL is non-zero
+	  checking that command->flags & CMD_WANT_SUBSHELL is non-zero
 	- changed execute_in_subshell to set the CMD_NO_FORK flag on the
 	  command to be executed by a command of type cm_subshell
 	  (command->value.Subshell->command), if that command is a simple

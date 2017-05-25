@@ -32,7 +32,7 @@ Resent-From: bug-bash-request@prep.ai.mit.edu
 > bash-1.12 says (specifically) that it's making for 3.2.2, but
 > still has problems.
 > 
-> It locks up after a few commnds...
+> It locks up after a few commands...
 > 
 > I don't have GCC right now, so I did have to tell it that I don't
 > have 'alloca' by undefining it in machines.h - if that could be a problem.

@@ -1127,7 +1127,7 @@ first.
    Finally, Parallel can be used to run a sequence of shell commands in
 parallel, similar to 'cat file | bash'.  It is not uncommon to take a
 list of filenames, create a series of shell commands to operate on them,
-and feed that list of commnds to a shell.  Parallel can speed this up.
+and feed that list of commands to a shell.  Parallel can speed this up.
 Assuming that 'file' contains a list of shell commands, one per line,
 
      parallel -j 10 < file

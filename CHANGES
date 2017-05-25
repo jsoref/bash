@@ -558,7 +558,7 @@ j.  Fixed a bug involving sign extension when reallocating the input line
 k.  Bash now does a better job at identifying syntax errors during word
     completion and tailoring completion appropriately.
 
-l.  Bash now uses the current locale's decimal point in comamnd timing output.
+l.  Bash now uses the current locale's decimal point in command timing output.
 
 m.  Fixed a bug that caused segmentation faults while reading here documents if
     PS2 contains a command substitution.
