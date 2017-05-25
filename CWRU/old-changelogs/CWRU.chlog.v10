@@ -39,7 +39,7 @@ builtins/getopts.def
 				    9/7
 				    ---
 subst.c
-	- support $POSIX_PEDANTIC as a synonym for $POSIXLY_CORRRECT
+	- support $POSIX_PEDANTIC as a synonym for $POSIXLY_CORRECT
 
 builtins/set.def
 	- added support for `set -o posix'
