@@ -3739,7 +3739,7 @@ subst.c
 				   5/11
 				   ----
 doc/{bash.1,bashref.texi}
-	- clarifed `trap' description to make it clear that trapped signals
+	- clarified `trap' description to make it clear that trapped signals
 	  that are not set to SIG_IGN are reset when a subshell is created
 
 				   5/18
