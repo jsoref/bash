@@ -3143,7 +3143,7 @@ findcmd.c
 	  has the `att_tempvar' attribute set
 
 builtins/setattr.c
-	- show_name_attributes looks in the temporary environemnt, so it needs
+	- show_name_attributes looks in the temporary environment, so it needs
 	  to dispose the SHELL_VAR if it has the att_tempvar attribute set
 
 subst.c

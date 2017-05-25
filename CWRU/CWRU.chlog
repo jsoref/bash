@@ -7801,7 +7801,7 @@ doc/{bash.1,bashref.texi}
 lib/readline/{complete,funmap,kill,histfile,util}
 lib/readline/readline.h
 lib/tilde/tilde.c
-	- fixes for filename- and evironment-related issues on Windows.  Fixes
+	- fixes for filename- and environment-related issues on Windows.  Fixes
 	  from Eli Zaretskii <eliz@gnu.org>
 	- Windows can paste to the console from the clipboard like Cygwin
 	- Windows uses $APPDATA as a pseudo-$HOME
