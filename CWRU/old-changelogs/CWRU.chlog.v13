@@ -9296,7 +9296,7 @@ config.h.in
 
 bashhist.c
 	- extern declarations for rl_done and rl_dispatching
-	- don't call re_edit from pre_process_line unless rl_dispatcing is zero,
+	- don't call re_edit from pre_process_line unless rl_dispatching is zero,
 	  so we don't call it from something like shell-expand-line
 	- change pre_process_line to add an expanded history specification
 	  that returned `print only' to the history list, since history_expand
