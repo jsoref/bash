@@ -57,7 +57,7 @@
  *
  *    if you install both modes, you should compile with the correct CGIBASE.
  *  * Some manpages rely on the fact that troff/nroff is used to convert
- *    them and use features which are not descripted in the man manpages.
+ *    them and use features which are not described in the man manpages.
  *    (definitions, calculations, conditionals, requests). I can't guarantee
  *    that all these features work on all manpages. (I didn't have the
  *    time to look through all the available manpages.)
