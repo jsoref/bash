@@ -6182,7 +6182,7 @@ j.  A fix was made to the job control code to prevent hanging processes when
 k.  `pwd' now prints an error message if the write fails when displaying the
     current directory.
 
-l.  When in POSIX mode, the shell prints trap dispostions without a leading
+l.  When in POSIX mode, the shell prints trap dispositions without a leading
     `SIG' in the signal specification.
 
 m.  Fixed a parser bug that caused the current command's line count to be

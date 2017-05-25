@@ -7011,7 +7011,7 @@ subst.c
 				   10/17
 				   -----
 {jobs,nojobs}.c
-	- get_original_tty_job_signals: get original signal dispostions for
+	- get_original_tty_job_signals: get original signal dispositions for
 	  SIGTSTP, SIGTTIN, SIGTTOU before we start manipulating them in
 	  make_child
 	- default_tty_job_signals: make sure we set SIGTSTP, SIGTTIN, or
