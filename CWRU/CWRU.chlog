@@ -1654,7 +1654,7 @@ lib/readline/complete.c
 	  because that function does not keep state and will not free the
 	  entries; avoids possible memory leak pointed out by
 	  Garrett Cooper <yanegomi@gmail.com>
-	- gen_completion_matches: if RL_SIG_RECEIVED evalutes to true after
+	- gen_completion_matches: if RL_SIG_RECEIVED evaluates to true after
 	  calling rl_attempted_completion_function, free the returned match
 	  list and handle the signal with RL_CHECK_SIGNALS; avoids
 	  possible memory leak pointed out by Garrett Cooper
