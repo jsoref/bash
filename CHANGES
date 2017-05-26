@@ -5588,7 +5588,7 @@ o.  `umask' now prints four digits when printing in octal mode, for
 
 p.  Lots of changes to the `printf' builtin from Paul Eggert:  it handles `L'
     formats and long doubles better, and internal functions have been
-    simpified where appropriate.
+    simplified where appropriate.
 
 q.  Some `time_t' fixes for machines were a time_t is bigger than a long.
 
