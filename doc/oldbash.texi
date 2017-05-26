@@ -6074,7 +6074,7 @@ the shell scans its own environment and creates a parameter
 @c ? parameter?
 for each name found, automatically marking it for export to child
 processes.
-@c ? marking paramater? marking name?
+@c ? marking parameter? marking name?
 
 Generally, this ``basic'' environment consists of (at least) the
 @code{HOME}, @code{PATH} and @code{TERM} variables.  These tell the
