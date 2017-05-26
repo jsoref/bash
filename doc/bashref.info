@@ -9100,7 +9100,7 @@ history file.
 
      In the second form, COMMAND is re-executed after each instance of
      PAT in the selected command is replaced by REP.  COMMAND is
-     intepreted the same as FIRST above.
+     interpreted the same as FIRST above.
 
      A useful alias to use with the 'fc' command is 'r='fc -s'', so that
      typing 'r cc' runs the last command beginning with 'cc' and typing
