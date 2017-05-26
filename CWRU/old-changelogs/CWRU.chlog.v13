@@ -6917,7 +6917,7 @@ lib/readline/display.c
 	- fixes to multibyte redisplay from jir@yamato.ibm.com (Jiro SEKIBA):
 		o speed up calculation of first difference between old and new
 		  lines in the common case
-		o don't try to see if we're in the middle of a multbyte char
+		o don't try to see if we're in the middle of a multibyte char
 		  in update_line (we'll see how this one works out)
 
 				   12/18
@@ -8968,7 +8968,7 @@ subst.c
 				   1/12
 				   ----
 lib/readline/display.c
-	- make expand_prompt count multbyte characters in the prompt string
+	- make expand_prompt count multibyte characters in the prompt string
 	  by using _rl_find_next_mbchar (and copying possibly more than one
 	  byte) instead of a simple increment and single byte copy
 
