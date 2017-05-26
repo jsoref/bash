@@ -5489,7 +5489,7 @@ execute_cmd.c
 jobs.c, nojobs.c
 	- cause the sigwinch handling code to be compiled into the shell
 	  even if READLINE is defined
-	- new functions: set_sigwinch_handler and unset_sigwith_handler
+	- new functions: set_sigwinch_handler and unset_sigwinch_handler
 	  to enable and disable catching of SIGWINCH and adjusting $LINES
 	  and $COLUMNS
 	- changed initialize_job_signals to install a signal handler for
