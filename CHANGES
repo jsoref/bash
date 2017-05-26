@@ -3688,7 +3688,7 @@ and the previous version, bash-3.1-alpha1.
 a.  Added some system-specific signal names.
 
 b.  Fixed a typo in the ulimit builtin to make `x' the right option to
-    maniuplate the limit on file locks.
+    manipulate the limit on file locks.
 
 c.  Fixed a problem with using += to append to index 0 of an array variable
     when not using subscript syntax.

@@ -5779,7 +5779,7 @@ lib/readline/rlprivate.h
 
 lib/readline/display.c
 	- add calls to _rl_block_sigint and _rl_release_sigint to rl_redisplay,
-	  since it maniupluates global data structures.  Fix from Jan
+	  since it manipulates global data structures.  Fix from Jan
 	  Kratochvil <jan.kratochvil@redhat.com>
 
 builtins/printf.def
