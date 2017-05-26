@@ -5661,7 +5661,7 @@ c.  `ulimit' prints `hard' or `soft' when a value is not `unlimited' but is
 
 a.  New bindable variable `history-preserve-point'.  If set, the history
     code attempts to place the user at the same location on each history
-    line retrived with previous-history or next-history.
+    line retrieved with previous-history or next-history.
 
 ------------------------------------------------------------------------------
 This document details the changes between this version, bash-2.05a-alpha1,

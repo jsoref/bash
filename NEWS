@@ -1371,7 +1371,7 @@ e.  The history expansion code now allows any character to terminate a
 
 f.  New bindable variable `history-preserve-point'.  If set, the history
     code attempts to place the user at the same location on each history
-    line retrived with previous-history or next-history.
+    line retrieved with previous-history or next-history.
 
 -------------------------------------------------------------------------------
 This is a terse description of the new features added to bash-2.05 since
