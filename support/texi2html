@@ -2779,7 +2779,7 @@ sub l2h_ExtractFromHtml
     $l2h_extract_error++;
     print "$ERROR l2h: can't extract content $count from html\n" 
       if ($T2H_VERBOSE);
-    # try simple (ordinary) substition (without l2h)
+    # try simple (ordinary) substitution (without l2h)
     $l_l2h = $T2H_L2H;
     $T2H_L2H = 0;
     $_ = $l2h_to_latex{$count};

@@ -601,7 +601,7 @@ x.  Fixed a bug that caused the shell to exit with the wrong (but non-zero)
 y.  Fixed a bug that caused the `time' reserved word to not be recognized as
     such in all contexts where it should have been.
 
-z.  Fixed a bug that caused the shell to close process subsitution file
+z.  Fixed a bug that caused the shell to close process substitution file
     descriptors when executing a script without the `#!' leading line.
 
 aa. Fixed a typo that caused the `compat42' shell option to set the wrong
@@ -1503,7 +1503,7 @@ ddd. Fixed several bugs that caused `declare -g' to not set the right global
      variables or to misbehave when declaring global indexed arrays.
 
 eee. Fixed a logic bug that caused extended globbing in a multibyte locale to
-     cause failures when using the pattern substititution word expansions.
+     cause failures when using the pattern substitution word expansions.
 
 fff. Fixed a bug that caused the `lastpipe' option to corrupt the file
      descriptor used to read the script.
@@ -5442,7 +5442,7 @@ r.  snprintf now recognizes the %F conversion.
 
 s.  Fixed a bug that could cause the wrong status to be returned by a shell
     function when the shell is compiled without job control and a null
-    command containing a command substutition was executed in the function.
+    command containing a command substitution was executed in the function.
 
 t.  When in posix mode, the default value for MAILCHECK is 600.
 
@@ -5728,9 +5728,9 @@ v.  Fixes, mostly from Paul Eggert, for a few possible buffer overflows in
 w.  Fixes from Paul Eggert to avoid most of the type casts in the shell code,
     and use more appropriate types for a number of variables.
 
-x.  Command substition no longer inherits the DEBUG trap.
+x.  Command substitution no longer inherits the DEBUG trap.
 
-y.  Some fixes to the process substition code on machines without /dev/fd so
+y.  Some fixes to the process substitution code on machines without /dev/fd so
     that named pipes are not removed inappropriately.
 
 z.  The loadable `getconf' builtin is now much more complete, and will become

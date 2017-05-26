@@ -1905,7 +1905,7 @@ The \w expansion gives the full pathname of the current directory, with
 a tilde (`~') substituted for the current value of $HOME.  The \W
 expansion gives the basename of the current directory.  To put the full
 pathname of the current directory into the path without any tilde
-subsitution, use $PWD.  Here are some examples:
+substitution, use $PWD.  Here are some examples:
 
 	PS1='\w$ '	# current directory with tilde
 	PS1='\W$ '	# basename of current directory

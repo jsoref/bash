@@ -630,7 +630,7 @@ builtins/umask.def
 
 subst.c
 	- make sure to close all files in the child created to run a
-	  process substutition to avoid holding write file descriptors
+	  process substitution to avoid holding write file descriptors
 	  to pipes that will cause the shell to hang
 
 				    1/7

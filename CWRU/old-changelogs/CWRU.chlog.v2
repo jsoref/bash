@@ -263,7 +263,7 @@ general.c
 
 subst.c
 	- use sysv_getc() for Ultrix machines running in Posix mode for
-	  command subsitution pipe reading
+	  command substitution pipe reading
 
                                    10/10
                                    -----

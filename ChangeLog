@@ -6211,7 +6211,7 @@ subst.c
 
 subst.h
 	- SD_NOPROCSUB: new flag for skip_to_delim, means to not allow any
-	  process subsitutions (should not have overloaded SD_NOSKIPCMD)
+	  process substitutions (should not have overloaded SD_NOSKIPCMD)
 
 subst.c
 	- skip_to_delim: honor SD_NOPROCSUB flag
@@ -12160,7 +12160,7 @@ bashline.c
 	  buffer, which allows us to pass flags with the word. If a numeric
 	  argument is supplied, do not perform quote removal (pass
 	  Q_HERE_DOCUMENT since here-doc quoting does the right thing) and
-	  do not perform command or process subsitution.  From a suggestion
+	  do not perform command or process substitution.  From a suggestion
 	  by Dabrien 'Dabe' Murphy <dabe@dabe.com> based on an old bug-bash
 	  discussion
 

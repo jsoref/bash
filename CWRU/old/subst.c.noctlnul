@@ -1664,7 +1664,7 @@ expand_string_unsplit (string, quoted)
    the resultant WORD_LIST.  This is called only from within this file,
    and is used to correctly preserve quoted characters when expanding
    things like ${1+"$@"}.  This does parameter expansion, command
-   subsitution, arithmetic expansion, and word splitting. */
+   substitution, arithmetic expansion, and word splitting. */
 static WORD_LIST *
 expand_string_leave_quoted (string, quoted)
      char *string;
@@ -2342,7 +2342,7 @@ process_substitute (string, open_for_read_in_child)
 
   if (!pathname)
     {
-      internal_error ("cannot make pipe for process subsitution: %s",
+      internal_error ("cannot make pipe for process substitution: %s",
 	strerror (errno));
       return ((char *)NULL);
     }
