@@ -3121,7 +3121,7 @@ l.  Fixed a bug in the code that buffers characters received very quickly in
     succession which caused characters to be dropped.
 
 m.  Fixed a bug that caused readline to reference uninitialized data structures
-    if it received a SIGWINCH before completing initialzation.
+    if it received a SIGWINCH before completing initialization.
 
 n.  Fixed a bug that caused the vi-mode `last command' to be set incorrectly
     and therefore unrepeatable.

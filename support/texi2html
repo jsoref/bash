@@ -2209,7 +2209,7 @@ $T2H_OBSOLETE_OPTIONS -> {verbose} =
  noHelp => 2
 };
 
-# read initialzation from $sysconfdir/texi2htmlrc or $HOME/.texi2htmlrc
+# read initialization from $sysconfdir/texi2htmlrc or $HOME/.texi2htmlrc
 my $home = $ENV{HOME};
 defined($home) or $home = '';
 foreach $i ('/usr/local/etc/texi2htmlrc', "$home/.texi2htmlrc") {
