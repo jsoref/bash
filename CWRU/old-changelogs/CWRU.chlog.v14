@@ -5946,7 +5946,7 @@ arrayfunc.[ch]
 				   4/20
 				   ----
 expr.c
-	- fix operator precendence in expcond():  term after the `:' is
+	- fix operator precedence in expcond():  term after the `:' is
 	  a conditional-expression, not a logical-OR-expression (using C
 	  terminology).  Bug reported by <archimerged@gmail.com>
 
