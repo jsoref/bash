@@ -7633,7 +7633,7 @@ gg. `alias' and `unalias' now print error messages when passed an argument
     not interactive, as POSIX.2 specifies.
 
 hh. `alias' and `alias -p' now return a status of 0 when no aliases are
-    defined, as POSIX.2 specifes.
+    defined, as POSIX.2 specifies.
 
 ii. `cd -' now prints the pathname of the new working directory if the shell
     is interactive.
