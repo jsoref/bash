@@ -8087,7 +8087,7 @@ lib/readline/doc/{history.3,hstech.texi}
 				   6/16
 				   ----
 lib/readline/readline.[ch]
-	- changed varions defines for readline/history library versions to 5.0
+	- changed various defines for readline/history library versions to 5.0
 
 subst.c
 	- pass information about whether or not an indirectly-expanded variable

@@ -200,7 +200,7 @@ if [ -f /unicos ]; then
    MAKE_ANSI=true
    UnicosMachine=
 
-   # Test for the variaous flavors of Cray machines.
+   # Test for the various flavors of Cray machines.
    if [ -x /bin/cray1 ] && /bin/cray1 2>/dev/null; then
       UnicosMachine=Cray1
    fi
