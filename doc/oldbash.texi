@@ -1965,7 +1965,7 @@ and off (@pxref{Built-in}).  Here are some option settings you might want to
 use:
 
 @c recommend any other features for beginners?
-@c   'set -u' (or set -o nounseft...) to make unset vars different from null vars
+@c   'set -u' (or set -o nounset...) to make unset vars different from null vars
 @c  2/8/91,bfox: 'set -o' is now for options, not history.
 @c    plain 'set -o' gives list of options
 
