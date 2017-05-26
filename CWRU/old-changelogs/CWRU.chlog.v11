@@ -3392,7 +3392,7 @@ variables.c
 	  the index being assigned to, and the new value
 	- new variable `$DIRSTACK', a dynamic array variable that holds
 	  the current contents of the directory stack.  You can even
-	  change the stack by assigning to thie variable
+	  change the stack by assigning to this variable
 
 shell.c
 	- changed indirection_level_string to return the null string if
