@@ -9012,7 +9012,7 @@ where you need it and turning it off (@code{set +x}) when you don't.@refill
 @c you mean put 'set '  in the script itslf?
 
 Adding @code{echo} statements to the shell script also helps when
-debugging.  It's like having @code{print} statments in a program.
+debugging.  It's like having @code{print} statements in a program.
 
 You can even check for unset shell variables with the @samp{-u} option. 
 When you use this option, attempts to substitute variables that have not
