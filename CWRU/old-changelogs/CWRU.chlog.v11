@@ -4120,7 +4120,7 @@ configure.in
 				   ----
 builtins/ulimit.def
 	- use sysconf(_SC_CHILD_MAX) to find the maximum number of child
-	  proceeses per user if HAVE_SYSCONF and _SC_CHILD_MAX are both
+	  processes per user if HAVE_SYSCONF and _SC_CHILD_MAX are both
 	  defined and RLIMIT_NPROC is not
 
 				   4/12
