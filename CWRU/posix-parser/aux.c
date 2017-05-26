@@ -94,7 +94,7 @@ delete_element (list, comparer, arg)
 }
 
 /* Find NAME in ARRAY.  Return the index of NAME, or -1 if not present.
-   ARRAY shoudl be NULL terminated. */
+   ARRAY should be NULL terminated. */
 int
 find_name_in_list (name, array)
      char *name, *array[];
