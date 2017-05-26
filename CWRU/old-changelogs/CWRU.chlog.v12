@@ -7643,7 +7643,7 @@ configure.in
 	  opt_bash_malloc to no for certain systems
 
 builtins/complete.def
-	- fixed a typo (stoppped) when printing out completion actions
+	- fixed a typo (stopped) when printing out completion actions
 
 				   2/22
 				   ----
