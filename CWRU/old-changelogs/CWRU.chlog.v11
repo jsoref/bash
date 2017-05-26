@@ -1653,7 +1653,7 @@ builtins/reserved.def
 	- made `help select' work
 
 cpp-Makefile
-	- removed references to the nonexistant `load.def'
+	- removed references to the nonexistent `load.def'
 	- removed conditionals based on GETOPTS_BUILTIN
 
 builtins/getopts.def
