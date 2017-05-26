@@ -2717,7 +2717,7 @@ tests/run-printf
 				   4/20
 				   ----
 lib/sh/strftime.c
-	- incoporated new version from Aharon Robbins <arnold@skeeve.com>
+	- incorporated new version from Aharon Robbins <arnold@skeeve.com>
 
 				   4/22
 				   ----
