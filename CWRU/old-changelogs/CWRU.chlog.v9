@@ -4238,7 +4238,7 @@ machines.h
 support/getcppsyms.c
 	- recognize __BSD_4_4__ for 4.4 BSD machines
 
-builtins/souirce.def
+builtins/source.def
 	- cast the st_size stat struct member to int because it's
 	  64 bits on 4.4 BSD
 
