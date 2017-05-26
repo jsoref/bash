@@ -2236,7 +2236,7 @@ support/shobj-conf
 variables.c
 	- new special variable function for Cygwin, so the export environment
 	  is remade when HOME is changed.  The environment is the only way to
-	  get information from the shell to cygwin dlls, for instanace, when
+	  get information from the shell to cygwin dlls, for instance, when
 	  bash is compiled to use an already-installed libreadline
 
 variables.h
