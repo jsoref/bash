@@ -597,7 +597,7 @@ BBAASSHH BBUUIILLTTIINN CCOOMMMMAANNDDSS
               plete, the edited commands are echoed and executed.
 
               In the second form, _c_o_m_m_a_n_d is re-executed after  each  instance
-              of  _p_a_t  is  replaced by _r_e_p.  _C_o_m_m_a_n_d is intepreted the same as
+              of  _p_a_t  is  replaced by _r_e_p.  _C_o_m_m_a_n_d is interpreted the same as
               _f_i_r_s_t above.  A useful alias to use with this is ``r="fc  -s"'',
               so  that  typing  ``r  cc'' runs the last command beginning with
               ``cc'' and typing ``r'' re-executes the last command.
