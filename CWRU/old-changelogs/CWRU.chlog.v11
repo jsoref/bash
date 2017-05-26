@@ -6374,7 +6374,7 @@ builtins/help.def
 				    5/8
 				    ---
 builtins/jobs.def
-	- fixed an unitialized variable problem
+	- fixed an uninitialized variable problem
 
 tests/more-exp.tests
 	- added additional tests for IFS problem uncovered by `iffe'

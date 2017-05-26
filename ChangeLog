@@ -11664,7 +11664,7 @@ lib/readline/input.c
 
 subst.c
 	- SPECIAL_VAR: make sure name is not the empty string before going on,
-	  empty strings can result in unitialized reads
+	  empty strings can result in uninitialized reads
 	- CHECK_STRING_OVERRUN: semi-general macro to use in *extract* and
 	  similar functions to to check whether a function called to parse an
 	  embedded construct (like a backquoted command substitution) doesn't
