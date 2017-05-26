@@ -6593,7 +6593,7 @@ _ImageMagick()
 		-type)
 			COMPREPLY=( $( compgen -W 'Bilevel Grayscale Palette \
 					PaletteMatte TrueColor TrueColorMatte \
-					ColorSeparation ColorSeparationlMatte \
+					ColorSeparation ColorSeparationMatte \
 					Optimize' -- $cur ) )
 			return 0
 			;;
