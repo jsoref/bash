@@ -3453,7 +3453,7 @@ x.  Fixed a bug that caused the shell to dump core when performing filename
 y.  Returned to the original Bourne shell rules for parsing ``:  no recursive
     parsing of embedded quoted strings or ${...} constructs.
 
-z.  The inheritence of the DEBUG, RETURN, and ERR traps is now dependent only
+z.  The inheritance of the DEBUG, RETURN, and ERR traps is now dependent only
     on the settings of the `functrace' and `errtrace' shell options, rather
     than whether or not the shell is in debugging mode.
 
