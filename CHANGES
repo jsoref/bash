@@ -2388,7 +2388,7 @@ j.  Fixed a bug in brace expansion that caused unwanted zero padding of the
 k.  Fixed a bug that prevented the |& construct from working as intended when
     used with a simple command with additional redirections.
 
-l.  Fixed a bug with the case statment ;& terminator that caused the shell to
+l.  Fixed a bug with the case statement ;& terminator that caused the shell to
     dereference a NULL pointer.
 
 m.  Fixed a bug that caused assignment statements or redirections preceding

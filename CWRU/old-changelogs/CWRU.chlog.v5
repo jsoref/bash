@@ -605,7 +605,7 @@ parse.y
 variables.c
 	- don't deallocate the old value in bind_variable until any needed
 	  arithmetic evaluation has been done.  If we're performing an
-	  assignment statment like `even=even+2' where even has the integer
+	  assignment statement like `even=even+2' where even has the integer
 	  attribute, we'll need the old value to evaluate the RHS
 
 shell.c
