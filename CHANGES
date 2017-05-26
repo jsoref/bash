@@ -6886,7 +6886,7 @@ m.  Improvements were made to the `read' builtin so that it makes many
 n.  The expansion of $- will include `c' and `s' when those options are
     supplied at shell invocation.
 
-o.  Several improvments were made to the completion code:  variable completion
+o.  Several improvements were made to the completion code:  variable completion
     now works better when there are unterminated expansions, command
     completion understands quotes better, and completion now works in certain
     unclosed $(... constructs.

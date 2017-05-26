@@ -3572,7 +3572,7 @@ lib/readline/complete.c
 		append_to_match
 		insert_all_matches
 
-	- made some efficiency improvments to filename_completion_function
+	- made some efficiency improvements to filename_completion_function
 	- the completion ignore function is now called no matter what type
 	  of completion is being performed (as it should have been all along)
 

@@ -9114,7 +9114,7 @@ lib/readline/histexpand.c
 lib/glob/xmbsrtowcs.c
 	- new function, xdupmbstowcs, for convenience:  calls xmbsrtowcs
 	  while allocating memory for the new wide character string
-	- some small efficiency improvments to xmbsrtowcs
+	- some small efficiency improvements to xmbsrtowcs
 
 include/shmbutil.h
 	- extern declaration for xdupmbstowcs
