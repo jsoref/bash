@@ -489,7 +489,7 @@ general.[ch]
 	  tilde_find_word
 
 subst.c
-	- call bash_tilde_expand with secord argument of 2 when expanding rhs
+	- call bash_tilde_expand with second argument of 2 when expanding rhs
 	  of an assignment statement, so tildes after second and subsequent
 	  `=' in an assignment are not expanded
 	- new function, expand_string_assignment, to expand the rhs of an
