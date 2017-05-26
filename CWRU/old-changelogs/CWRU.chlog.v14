@@ -6543,7 +6543,7 @@ array.[ch]
 	  (that implies "${array[@]}")
 
 subst.c
-	- new functions for case-modifying word expansion suppport:
+	- new functions for case-modifying word expansion support:
 	  pos_params_casemod, parameter_brace_casemod; from bash-4.0-devel branch
 
 assoc.c
