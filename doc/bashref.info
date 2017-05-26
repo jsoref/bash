@@ -8893,7 +8893,7 @@ function and bind it to a particular command using 'complete -F'.
 
    The following function provides completions for the 'cd' builtin.  It
 is a reasonably good example of what shell functions must do when used
-for completion.  This function uses the word passsed as '$2' to
+for completion.  This function uses the word passed as '$2' to
 determine the directory name to complete.  You can also use the
 'COMP_WORDS' array variable; the current word is indexed by the
 'COMP_CWORD' variable.
