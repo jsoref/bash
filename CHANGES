@@ -2646,7 +2646,7 @@ a.  Changed the message printed when setlocale(3) fails to only include the
 b.  Changed trap command execution to reset the line number before running a
     trap (except DEBUG and RETURN traps).
 
-c.  Fixed behavior of case-modifiying word expansions to not work on
+c.  Fixed behavior of case-modifying word expansions to not work on
     individual words within a variable's value.
 
 d.  Fixed a bug that caused mapfile to not be interruptible when run in an
