@@ -6580,7 +6580,7 @@ _ImageMagick()
 					Saturation Brightness Gamma Spiff \
 					Dull Grayscale Quantize Despeckle \
 					ReduceNoise AddNoise Sharpen Blur \
-					Treshold EdgeDetect Spread Shade \
+					Threshold EdgeDetect Spread Shade \
 					Raise Segment Solarize Swirl Implode \
 					Wave OilPaint CharcoalDrawing JPEG' \
 					-- $cur ) )
