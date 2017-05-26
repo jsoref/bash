@@ -1448,7 +1448,7 @@ shell.h
 	  lib/readline/rltypedefs.h
 
 hashlib.[ch]
-	- second paramter to flush_hash_table is now an `sh_free_func_t *'
+	- second parameter to flush_hash_table is now an `sh_free_func_t *'
 
 trap.c
 	- parameter to reset_or_restore_signal_handlers is now an
@@ -4355,7 +4355,7 @@ variables.c
 	- make_new_variable now takes the HASH_TABLE * as its second
 	  argument; changed callers
 	- new function, bind_variable_in_table, takes the HASH_TABLE * as
-	  its third paramter; bind_variable calls bind_variable_in_table
+	  its third parameter; bind_variable calls bind_variable_in_table
 	  with shell_variables as third argument
 
 variables.h
@@ -6744,7 +6744,7 @@ print_cmd.c
 				   -----
 builtins/shift.def
 	- make sure that there is actually an argument when reporting a shift
-	  count that exceeds the number of positional paramters and
+	  count that exceeds the number of positional parameters and
 	  shift_verbose is enabled
 
 lib/readline/rltty.c

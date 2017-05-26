@@ -1811,7 +1811,7 @@ p.  The shell now supports integer-indexed arrays of unlimited length,
 
 q.  ${!var}: indirect variable expansion, equivalent to eval \${$var}.
 
-r.  ${paramter:offset[:length]}: variable substring extraction.
+r.  ${parameter:offset[:length]}: variable substring extraction.
 
 s.  ${parameter/pattern[/[/]string]}: variable pattern substitution.
 

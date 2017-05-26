@@ -3298,7 +3298,7 @@ parameter_brace_expand_length (name)
 
 /* Verify and limit the start and end of the desired substring.  If
    VTYPE == 0, a regular shell variable is being used; if it is 1,
-   then the positional paramters are being used; if it is 2, then
+   then the positional parameters are being used; if it is 2, then
    VALUE is really a pointer to an array variable that should be used. */
 static int
 verify_substring_values (value, substr, vtype, e1p, e2p)

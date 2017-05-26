@@ -2788,7 +2788,7 @@ subst.c
 
 documentation/bash.1
 	- documented new pattern removal functionality for the positional
-	  paramters
+	  parameters
 
 general.c
 	- new function strsub (s, pat, rep, gflag) replaces PAT with REP
@@ -4225,7 +4225,7 @@ shell.c
 				   4/21
 				   ----
 subst.c
-	- added a `quoted' paramter to parameter_brace_remove_pattern;
+	- added a `quoted' parameter to parameter_brace_remove_pattern;
 	  Posix.2 says that the pattern is parsed differently if the
 	  entire expression is double-quoted
 	- `getpattern' now takes a second argument, `quoted'
@@ -6053,7 +6053,7 @@ subst.c
 				   ----
 general.c
 	- ansicstr now takes an additional parameter, the length of the
-	  string to be translated.  It's the second paramter.
+	  string to be translated.  It's the second parameter.
 
 builtins/echo.def
 	- changed call to ansicstr to pass strlen(list->word->word)
@@ -6660,7 +6660,7 @@ subst.c
 	- array_length_reference and parameter_brace_expand_length now
 	  return -1 on errors
 	- parameter_brace_expand now returns &expand_param_error if
-	  paramter_brace_expand_length returns something < 0
+	  parameter_brace_expand_length returns something < 0
 
 variables.c
 	- assign_in_env now checks for assignments to readonly shell

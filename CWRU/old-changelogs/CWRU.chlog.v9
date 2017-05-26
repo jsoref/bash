@@ -3197,7 +3197,7 @@ subst.c, variables.c
 	  scope
 
 subst.c
-	- changed paramter_brace_expand_pattern to call expand_string_internal
+	- changed parameter_brace_expand_pattern to call expand_string_internal
 	  on the removal pattern, since we do not want word splitting
 
 jobs.c
