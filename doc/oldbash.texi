@@ -3488,7 +3488,7 @@ people without a @key{META} key.  @kbd{@key{ESC} f} is equivalent to
 
 @c I have no idea what the 'last thing' is.
 @c empirically: successive C-- (note: I typed hyphen, not underscore) insert
-@c   sucessive deletions or delete a whole contiguous set of insertion (typein)
+@c   successive deletions or delete a whole contiguous set of insertion (typein)
 @c bfox: consecutive insertions up to n is 1 thing
 @item undo (@kbd{C-_})
 This is the incremental undo.  Undo the last thing that you did.
