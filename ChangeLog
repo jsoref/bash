@@ -13241,7 +13241,7 @@ lib/readline/vi_mode.c
 	  buffer. Report and fix from Jason Hood <jadoxa@yahoo.com.au>
 
 lib/readline/display.c
-	- expand_prompt: if _rl_screenwith == 0, call rl_reset_screen_size to
+	- expand_prompt: if _rl_screenwidth == 0, call rl_reset_screen_size to
 	  initialize it. If it's still 0 after that, guess that the screen
 	  width is 80 and use that to guess how many screen lines the prompt
 	  consumes
