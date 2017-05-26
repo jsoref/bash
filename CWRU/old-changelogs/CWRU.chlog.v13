@@ -9259,7 +9259,7 @@ builtins/cd.def
 expr.c
 	- reworked exp0 and readtok() to make post-increment and post-decrement
 	  into real tokens, which may be separated from their accompanying
-	  variables by whitesapce
+	  variables by whitespace
 	- made analogous changes to readtok() to make pre-increment and
 	  pre-decrement work when separated from their accompanying identifier
 	  by whitespace
