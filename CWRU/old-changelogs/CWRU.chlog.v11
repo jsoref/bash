@@ -1854,7 +1854,7 @@ builtins.h
 	- new flags value: BUILTIN_DELETED
 
 builtins/mkbuiltins.c
-	- added code to inintialize the `handle' member to null in the
+	- added code to initialize the `handle' member to null in the
 	  static builtin array definition
 
 builtins/common.c

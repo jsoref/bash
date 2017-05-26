@@ -2521,7 +2521,7 @@ $l2h_latex_closing = <<EOT;
 \\end{document}
 EOT
 
-# return used latex 1, if l2h could be initalized properly, 0 otherwise
+# return used latex 1, if l2h could be initialized properly, 0 otherwise
 sub l2h_InitToLatex
 {
   %l2h_to_latex = ();

@@ -2696,7 +2696,7 @@ lib/readline/history.c
 				    4/7
 				    ---
 lib/readline/complete.c
-	- make sure `max' is intialized to 0 when displaying the possible
+	- make sure `max' is initialized to 0 when displaying the possible
 	  completions, even if we've done `goto display_matches'
 
 lib/posixheaders/stdc.h

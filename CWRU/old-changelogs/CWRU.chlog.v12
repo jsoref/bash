@@ -280,7 +280,7 @@ sig.c
 	  if the shell is interactive
 	- initialize_terminating_signals is now extern
 	- made reset_terminating_signals return immediately if
-	  termsigs_intitialized is zero, meaning that
+	  termsigs_initialized is zero, meaning that
 	  initialize_terminating_signals has not been called
 
 sig.h

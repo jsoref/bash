@@ -115,7 +115,7 @@ execute_cmd.c
 	  compatibility
 
 variables.c
-	- make $PPID have the integer attribute when it is intialized
+	- make $PPID have the integer attribute when it is initialized
 
                                     4/2
                                     ---

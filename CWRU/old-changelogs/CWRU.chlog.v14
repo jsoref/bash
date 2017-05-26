@@ -2088,7 +2088,7 @@ command.h
 	- add a `flags' member to the PATTERN_LIST structure
 
 make_cmd.c
-	- intialize the `flags' member of a PATTERN_LIST when it's created
+	- initialize the `flags' member of a PATTERN_LIST when it's created
 
 builtins/psize.c
 	- protect extern declaration of errno with usual #ifdef errno

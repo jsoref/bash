@@ -2175,7 +2175,7 @@ doc/{bash.1,bashref.texi}
 				    2/2
 				    ---
 builtins/printf.def
-	- printf_builtin: make sure vbuf is intialized and non-null when -v
+	- printf_builtin: make sure vbuf is initialized and non-null when -v
 	  is supplied, since other parts of the code assume that it's not
 	  null (e.g., bind_printf_variable()).  Fixes bug reported by Jim
 	  Avera <james_avera@yahoo.com>
