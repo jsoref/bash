@@ -4555,7 +4555,7 @@ subst.c
 				   2/16
 				   ----
 variables.c
-	- make_local_variable: print error messager if an attempt is made to
+	- make_local_variable: print error message if an attempt is made to
 	  create a local variable shadowing a `noassign' variable.  Previously
 	  we just silently refused to do it
 
