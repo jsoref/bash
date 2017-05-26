@@ -2896,7 +2896,7 @@ documentation/bash.1
 				    2/2
 				    ---
 machines.h
-	- added REQUIRED_LIBARIES = -lPW -lc_s to SCO unix description
+	- added REQUIRED_LIBRARIES = -lPW -lc_s to SCO unix description
 	  when not using gcc
 
 variables.c
