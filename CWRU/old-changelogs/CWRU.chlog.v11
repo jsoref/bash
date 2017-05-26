@@ -6323,7 +6323,7 @@ lib/malloc/Makefile.in
 				   4/30
 				   ----
 COMPAT
-	- new file listing user-visible incompatibilites between bash-1.14
+	- new file listing user-visible incompatibilities between bash-1.14
 	  and bash-2.0
 
 parse.y
