@@ -5289,7 +5289,7 @@ builtins/evalstring.c
 
 builtins/common.c
 	- double_quote needs to protect newlines with backslashes as well
-	- new function, un_double_quote, to remove backslashes proctecting
+	- new function, un_double_quote, to remove backslashes protecting
 	  characters that are special in double quotes
 
 builtins/common.h
