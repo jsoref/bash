@@ -517,7 +517,7 @@ execute_cmd.c
                                    -----
 
 execute_cmd.c
-	- finally tracked down and stamped out the persistant bug that caused
+	- finally tracked down and stamped out the persistent bug that caused
 	  the shell to hang when doing a command like "history | more" when
 	  there was more than a pipeful of text to send to `more' and you quit
 	  out of `more'after the first screenful.  An extra read end of the
