@@ -8639,7 +8639,7 @@ general.h
 
 parse.y,{subst,variables}.c, builtins/{setattr,declare}.def
 	- change calls to assignment() (parse.y calls with flags == 1 when
-	  parser_state inlcudes PST_COMPASSIGN)
+	  parser_state includes PST_COMPASSIGN)
 
 arrayfunc.c
 	- in assign_array_var_from_string(), don't treat an expanded word
