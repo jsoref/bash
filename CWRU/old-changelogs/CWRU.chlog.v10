@@ -2882,7 +2882,7 @@ builtins/getopt.c
 parse.y, make_cmd.c, make_cmd.h, execute_cmd.c
 	- changed make_redirection to take a `REDIRECTEE', which is a union,
 	  as its second argument, to avoid int/long/pointer problems
-	- changed all calls to make_redirction to pass a correctly-
+	- changed all calls to make_redirection to pass a correctly-
 	  initialized REDIRECTEE argument
 
 				    5/1
