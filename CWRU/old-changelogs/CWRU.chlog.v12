@@ -6739,7 +6739,7 @@ parse.y
 				   ----
 lib/readline/display.c
 	- code to manage the growth of the inv_lbreaks and vis_lbreaks arrays
-	  beyond 256, since there are pathalogical command lines that can
+	  beyond 256, since there are pathological command lines that can
 	  have more than 256 line breaks for redisplay
 
 				   6/30
