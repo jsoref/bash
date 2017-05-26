@@ -8469,7 +8469,7 @@ When exiting a login shell, BASH reads and executes the file
 @xref{Start-up}, for an example of this type of file.
 
 @cindex shell, interactive file order
-@c what causes non-login interacive shell to start up?
+@c what causes non-login interactive shell to start up?
 Upon starting a non-login, interactive shell, BASH
 @c bash IS that shell
 reads and executes the
@@ -8478,7 +8478,7 @@ file @file{~/.bashrc} if it exists.
 @xref{Start-up}, for an example of this type of file.
 
 @cindex shell, non-interactive file order
-@c what causes non-interacive shell to start up?
+@c what causes non-interactive shell to start up?
 Upon starting a non-interactive shell, BASH
 @c bash IS that shell
 checks to see if the
@@ -8856,7 +8856,7 @@ echo "Au revoir"
 
 @node Other Scripts, Inputrc File, Logout Script, Start-up
 @appendixsec Non-login, Interactive Scripts
-@c what about noninteracive scripts?
+@c what about noninteractive scripts?
 
 All login scripts are run when you first log in.
 @c all ??
