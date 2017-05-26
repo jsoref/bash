@@ -1386,7 +1386,7 @@ t.  Fixed a problem with the bash malloc's internal idea of the top of the
     memory heap that resulted in incorrect decisions to try to reduce the
     break and give memory back to the kernel.
 
-u.  There are changes to the expansions peformed on compound array assignments,
+u.  There are changes to the expansions performed on compound array assignments,
     in an effort to make foo=( [ind1]=bar [ind2]=baz ) identical to
     foo[ind1]=bar foo[ind2]=baz.
 
