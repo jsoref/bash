@@ -236,7 +236,7 @@ lib/readline/readline.c
 	  by using the appropriate meta keymap (map[ESC].function as a
 	  keymap)
 	- changed rl_dispatch, rl_show_char, and rl_bind_key to use
-	  UNMETA instead of substracting 128 and to use META_CHAR to
+	  UNMETA instead of subtracting 128 and to use META_CHAR to
 	  check for a character's `meta-ness'
 
 				   2/13
