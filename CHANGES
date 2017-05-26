@@ -5419,7 +5419,7 @@ l.  The `printf' builtin now handles the `ll' and `j' length modifiers
     passed to printf(3).
 
 m.  Renamed a number of the bash-specific autoconf macros in aclocal.m4 to
-    have more sytematic naming, with accompanying changes to configure.in.
+    have more systematic naming, with accompanying changes to configure.in.
 
 n.  Fixed snprintf to handle long doubles and the %a/%A conversions by
     falling back to sprintf, as long as sprintf supports them.
