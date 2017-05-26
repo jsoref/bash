@@ -214,7 +214,7 @@ extern char *get_dollar_var_value __P((intmax_t));
 /* Quote a string to protect it from word splitting. */
 extern char *quote_string __P((char *));
 
-/* Quote escape characters (characters special to interals of expansion)
+/* Quote escape characters (characters special to internals of expansion)
    in a string. */
 extern char *quote_escapes __P((const char *));
 
