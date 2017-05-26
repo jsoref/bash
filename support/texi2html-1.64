@@ -2795,7 +2795,7 @@ sub l2h_ExtractFromHtml
   {
     # now we have been incorrectly called
     $l2h_range_error++;
-    print "$ERROR l2h: Request of $count content which is out of valide range [0,$l2h_latex_count)\n";
+    print "$ERROR l2h: Request of $count content which is out of valid range [0,$l2h_latex_count)\n";
     return "<!-- l2h: ". __LINE__ . " out of range count $count -->"
       if ($T2H_DEBUG & $DEBUG_L2H);
     return "<!-- l2h: out of range count $count -->";
