@@ -1048,7 +1048,7 @@ bash$ sort < users-file >& error-file > out-file
 @cindex pipeline
 @cindex pipes
 @cindex @code{|}, use in piping
-@cindex intermedate file, using pipe to avoid
+@cindex intermediate file, using pipe to avoid
 @cindex combining commands with pipes
 @cindex connecting commands together with pipes
 
