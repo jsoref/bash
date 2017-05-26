@@ -4033,7 +4033,7 @@ sss. Change internal command substitution completion function to append a slash
 
 2.  Changes to Readline
 
-a.  Fixed a bug that caused multiliine prompts to be wrapped and displayed
+a.  Fixed a bug that caused multiline prompts to be wrapped and displayed
     incorrectly.
 
 b.  Fixed a bug that caused ^P/^N in emacs mode to fail to display the current
