@@ -2174,7 +2174,7 @@ MAKE = make
 
 /* Undef USE_GNU_MALLOC if there appear to be library conflicts, or if you
    especially desire to use your OS's version of malloc () and friends.  We
-   reccommend against this because GNU Malloc has debugging code built in. */
+   recommend against this because GNU Malloc has debugging code built in. */
 /* #  undef USE_GNU_MALLOC */
 
 /* Define USE_GNU_TERMCAP if you want to use the GNU termcap library
