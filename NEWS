@@ -1935,7 +1935,7 @@ iii. Changes to Posix mode:
 	  any symbolic links.
 	o A non-interactive shell exits if a variable assignment error
 	  occurs when no command name follows the assignment statements.
-	o A non-interactive shell exits if the interation variable in a
+	o A non-interactive shell exits if the iteration variable in a
 	  `for' statement or the selection variable in a `select' statement
 	  is read-only or another variable assignment error occurs.
 	o The `<>' redirection operator now opens a file for both stdin and
