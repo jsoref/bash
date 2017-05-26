@@ -138,7 +138,7 @@ int command_oriented_history = 1;
 
 /* Set to 1 if the first line of a possibly-multi-line command was saved
    in the history list.  Managed by maybe_add_history(), but global so
-   the history-manipluating builtins can see it. */
+   the history-manipulating builtins can see it. */
 int current_command_first_line_saved = 0;
 
 /* Set to the number of the most recent line of a possibly-multi-line command
