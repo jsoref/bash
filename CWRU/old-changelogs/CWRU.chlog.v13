@@ -8717,7 +8717,7 @@ subst.c
 
 nojobs.c
 	- add replacement function for siginterrupt on the off chance that a
-	  system has posix signals but lacks siginterrrupt
+	  system has posix signals but lacks siginterrupt
 
 lib/readline/display.c
 	- fix from Tim Waugh at Red Hat to speed up inserting characters into
