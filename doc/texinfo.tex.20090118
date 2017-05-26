@@ -3993,7 +3993,7 @@ end
 % @ifset VAR ... @end ifset reads the `...' iff VAR has been defined
 % with @set.
 %
-% To get special treatment of `@end ifset,' call \makeond and the redefine.
+% To get special treatment of `@end ifset,' call \makecond and the redefine.
 %
 \makecond{ifset}
 \def\ifset{\parsearg{\doifset{\let\next=\ifsetfail}}}
