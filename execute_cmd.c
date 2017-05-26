@@ -4303,7 +4303,7 @@ execute_simple_command (simple_command, pipe_in, pipe_out, async, fds_to_close)
       goto return_result;
     }
 
-  /* One other possibililty.  The user may want to resume an existing job.
+  /* One other possibility.  The user may want to resume an existing job.
      If they do, find out whether this word is a candidate for a running
      job. */
   if (job_control && already_forked == 0 && async == 0 &&
