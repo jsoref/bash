@@ -11835,7 +11835,7 @@ lib/readline/macro.c
 	  and return to the top level.  Reported by Christian Klomp
 	  <christianklomp@gmail.com>
 
-lib/readine/history.c
+lib/readline/history.c
 	- add_history: if allocating the history list for the first time,
 	  make sure the max history list size isn't so large that it will
 	  cause allocation errors.  Cap it at MAX_HISTORY_INITIAL_SIZE
@@ -12361,7 +12361,7 @@ lib/readline/nls.c
 	- _rl_init_locale: new function, split off code that determines current
 	  locale from _rl_init_eightbit, use it to set _rl_utf8locale
 
-lib/readiline/rlprivate.h
+lib/readline/rlprivate.h
 	- _rl_init_locale: new extern declaration
 
 lib/readline/readline.c

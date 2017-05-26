@@ -9369,7 +9369,7 @@ lib/glob/Makefile.in
 
 				   1/15
 				   ----
-doc/{bash.1,{bashref,version}.texi},lib/readine/doc/rluser.texi
+doc/{bash.1,{bashref,version}.texi},lib/readline/doc/rluser.texi
 	- some typo fixes from Aharon Robbins <arnold@skeeve.com>
 	- added descriptions of ENV, COPROC, and MAPFILE variables
 	- added descriptions of READLINE_LINE and READLINE_POINT

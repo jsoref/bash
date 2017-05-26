@@ -8937,7 +8937,7 @@ lib/readline/{rlprivate.h,terminal.c,display.c, readline.c}
 lib/readline/{terminal,complete,isearch,kill,macro,readline,search,undo,util,vi_mode}.c
 	- changed calls to ding to calls to rl_ding
 
-lib/readine/{isearch,readline,search}.c
+lib/readline/{isearch,readline,search}.c
 	- saved_line_for_history now has an _rl_ prefix
 
 lib/readline/readline.[ch]

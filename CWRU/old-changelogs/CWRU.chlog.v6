@@ -605,7 +605,7 @@ lib/readline/vi_mode.c
 	- changed rl_vi_comment_character to rl_vi_comment_begin, which is
 	  a character string
 
-lib/realine/readline.c
+lib/readline/readline.c
 	- changed the name of the variable controlling the vi comment
 	  string to comment-begin
 

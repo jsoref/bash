@@ -497,7 +497,7 @@ bashline.c
 variables.c
 	- set_func_auto_export no longer returns a SHELL_VAR *
 
-lib/readline/readine.c
+lib/readline/readline.c
 	- added code to determine whether or not the terminal has a
 	  meta key and to use it while editing if one is available
 

@@ -4028,7 +4028,7 @@ lib/readline/readline.c
 	  not in readline.h because it requires a definition of
 	  HIST_ENTRY for the prototype)
 
-lib/readline/readlne.h
+lib/readline/readline.h
 	- new extern declaration for rl_replace_line
 
 lib/readline/doc/rltech.texinfo
