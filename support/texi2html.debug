@@ -423,7 +423,7 @@ $T2H_OPTIONS -> {l2h_skip} =
 };
 
 # -l2h_tmp
-# if set, l2h uses this directory for temporarary files. The path
+# if set, l2h uses this directory for temporary files. The path
 # leading to this directory may not contain a dot (i.e., a "."),
 # otherwise, l2h will fail
 $T2H_L2H_TMP = '';
