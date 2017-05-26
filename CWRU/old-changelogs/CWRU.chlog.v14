@@ -5330,7 +5330,7 @@ pcomplete.c
 				   -----
 bashline.c
 	- When completing a command name beginning with a tilde and containing
-	  escaped specical characters, dequote the filename before prefixing
+	  escaped special characters, dequote the filename before prefixing
 	  it to the matches, so the escapes are not quoted again.  Reported
 	  by neil@s-z.org
 
