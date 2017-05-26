@@ -2164,7 +2164,7 @@ extern int noclobber;
 
 /* Perform the redirections on LIST.  If FOR_REAL, then actually make
    input and output file descriptors, otherwise just do whatever is
-   neccessary for side effecting.  INTERNAL says to remember how to
+   necessary for side effecting.  INTERNAL says to remember how to
    undo the redirections later, if non-zero.  If SET_CLEXEC is non-zero,
    file descriptors opened in do_redirection () have their close-on-exec
    flag set. */
@@ -2289,7 +2289,7 @@ redirection_expand (word)
 }
 
 /* Do the specific redirection requested.  Returns errno in case of error.
-   If FOR_REAL is zero, then just do whatever is neccessary to produce the
+   If FOR_REAL is zero, then just do whatever is necessary to produce the
    appropriate side effects.   REMEMBERING, if non-zero, says to remember
    how to undo each redirection.  If SET_CLEXEC is non-zero, then
    we set all file descriptors > 2 that we open to be close-on-exec.  */

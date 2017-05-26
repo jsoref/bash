@@ -21,7 +21,7 @@ for filename in $must_exist; do
    fi
 done
 
-echo -n "Relinking neccessary files in lib/readline..."
+echo -n "Relinking necessary files in lib/readline..."
 cd readline
 for filename in tilde.c tilde.h; do
    rm $filename
