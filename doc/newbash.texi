@@ -112,7 +112,7 @@ II  Reference
     i   Shell Syntax
 	1) Parts of "speech".
 	   a) Command Words.
-	   b) Command Seprators.
+	   b) Command Separators.
 	   c) Redirection Words.
 
 	2) Quoting Syntax.
