@@ -11428,7 +11428,7 @@ arrayfunc.c
 subst.c
 	- string_list_dollar_at: if FLAGS argument includes PF_ASSIGNRHS, obey
 	  rules for $@ on the RHS of an assignment statement: expand to
-	  postitional parameters separated by spaces no matter what the first
+	  positional parameters separated by spaces no matter what the first
 	  character of $IFS is.  Reported by Dan Douglas <ormaaj@gmail.com>
 	- parameter_brace_expand_word: pass AV_ASSIGNRHS as flags value to
 	  array_value if PF_ASSIGNRHS is set and we are expanding an array
