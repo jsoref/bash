@@ -6890,7 +6890,7 @@ File: bashref.info,  Node: Job Control Builtins,  Next: Job Control Variables,  
      zero.  If the '-n' option is supplied, 'wait' waits for any job to
      terminate and returns its exit status.  If the '-f' option is
      supplied, and job control is enabled, 'wait' forces each PID or
-     JOBSPEC to terminate before returning its status, intead of
+     JOBSPEC to terminate before returning its status, instead of
      returning when it changes status.  If neither JOBSPEC nor PID
      specifies an active child process of the shell, the return status
      is 127.
