@@ -587,7 +587,7 @@ subst.c
 	  xx corresponds to the parent end of the pipe
 	- all the named pipe utility functions should be #if !defined
 	  (HAVE_DEV_FD)
-	- change process_subsitute to do the following on systems with /dev/fd:
+	- change process_substitute to do the following on systems with /dev/fd:
 		1.  Make a pipe in the parent
 		2.  if (open_for_read_in_child)
 			parent_pipe_fd = fildes[1]
