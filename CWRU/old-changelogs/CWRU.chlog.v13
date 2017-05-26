@@ -5293,7 +5293,7 @@ array.c
 array.[ch]
 	- renamed most of the array functions so that all have an array_
 	  prefix and are more systematically named
-	- array_slice now preserves the indicies from the original array
+	- array_slice now preserves the indices from the original array
 	- change array_to_assign to use a static buffer for expanding the
 	  array indices, instead of malloc/free
 
