@@ -9501,7 +9501,7 @@ Makefile.in
 	- install-headers,install-headers-dirs: new targets to support
 	  installing headers into $(headersdir) and subdirectories for loadable
 	  builtin development
-	- uninstall-headers: target to uninistall headers in $(headersdir)
+	- uninstall-headers: target to uninstall headers in $(headersdir)
 	- uninstall: call uninstall-headers whether or not install-headers
 	  was done; add uninstall in examples/loadables
 	- install: add install in examples/loadables
@@ -9514,7 +9514,7 @@ examples/loadables/Makefile.in
 	  installs the header files
 	- install-supported: now installs Makefile.inc to $(loadablesdir) as
 	  an example
-	- uninstall-supported,uninistall-unsupported: uninstall targets,
+	- uninstall-supported,uninstall-unsupported: uninstall targets,
 	  make uninstall chooses one based on $(SHOBJ_STATUS)
 
 				   8/31
