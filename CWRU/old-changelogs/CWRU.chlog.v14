@@ -7408,7 +7408,7 @@ lib/sh/casemod.c
 builtins/printf.def
 	- in vbprintf, bracket each call to vsnprintf (which uses the args
 	  passed to vbprintf) with SH_VA_START and va_end, so we can
-	  reninitialize the argument list for each call.  This is actually
+	  reinitialize the argument list for each call.  This is actually
 	  what the C standard requires.  Fixes bug that caused printf -b
 	  to `ignore' first % format specifier if it came first in the
 	  string.  Reported by David Leverton <levertond@googlemail.com>
