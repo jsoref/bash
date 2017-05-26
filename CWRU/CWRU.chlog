@@ -405,7 +405,7 @@ pcomplete.h
 	- new extern declaration for it_helptopics
 
 builtins/complete.def
-	- the `helptopic' action now maps to CA_HELPTOPIC intead of CA_BUILTIN,
+	- the `helptopic' action now maps to CA_HELPTOPIC instead of CA_BUILTIN,
 	  since there are more help topics than just builtins.  Suggested by
 	  Clark Wang <dearvoid@gmail.com>
 
@@ -5825,7 +5825,7 @@ bashline.c
 				   ----
 parse.y
 	- xparse_dolparen: save and restore shell_eof_token around call to
-	  parse_string, intead of just leaving it set to ')'
+	  parse_string, instead of just leaving it set to ')'
 	- shell_getc: when -v is set, only print the command line when
 	  shell_eof_token is 0, so we don't print it multiple times when
 	  recursively entering the parser to parse $(...) commands.  Fixes
