@@ -3077,7 +3077,7 @@ variables.c
 	- find_nameref_at_context: resolve SHELL_VAR V through chain of namerefs	
 	  in a specific variable context (usually a local variable hash table)
 	- find_variable_nameref_context: resolve SHELL_VAR V through chain of
-	  namerefs following a chain of varible contexts
+	  namerefs following a chain of variable contexts
 	- find_variable_last_nameref_context: resolve SHELL_VAR V as in
 	  find_variable_last_context, but return the final nameref instead of
 	  what the final nameref resolves to

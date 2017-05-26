@@ -6977,7 +6977,7 @@ e.  The `help' builtin has a `-s' option to just print a builtin's usage
     synopsys.
 
 f.  There are several new arithmetic operators:  id++, id-- (variable
-    post-increment/decrement), ++id, --id (variabl pre-increment/decrement),
+    post-increment/decrement), ++id, --id (variable pre-increment/decrement),
     expr1 , expr2 (comma operator).
 
 g.  There is a new ksh-93 style arithmetic for command:

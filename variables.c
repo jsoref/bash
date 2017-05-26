@@ -1109,7 +1109,7 @@ print_var_function (var)
    unused otherwise.
 
    dynamic_value is called from find_variable_internal to return a `new'
-   value for the specified dynamic varible.  If this function is NULL,
+   value for the specified dynamic variable.  If this function is NULL,
    the variable is treated as a `normal' shell variable.  If it is not,
    however, then this function is called like this:
 	tempvar = (*(var->dynamic_value)) (var);
