@@ -6150,7 +6150,7 @@ exports the value of named variables @var{names} to a subshell.
 Exported variables can only be exported
 to child processes and @emph{not} back to parent processes.
 @c to every child created from now on?
-@c explain child & parent somehwere
+@c explain child & parent somewhere
 
 @item export -n @var{names}
 removes the export property from the named variables, @var{names}.
