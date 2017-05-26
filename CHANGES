@@ -7494,7 +7494,7 @@ l.  A bug was fixed in the history saving code so that functions are saved
 m.  A bug was fixed that caused printf overflows when displaying error
     messages.
 
-n.  It should be easier to build the loadble builtins in examples/loadables,
+n.  It should be easier to build the loadable builtins in examples/loadables,
     though some manual editing of the generated Makefile is still required.
 
 o.  The user's primary group is now always ${GROUPS[0]}.
