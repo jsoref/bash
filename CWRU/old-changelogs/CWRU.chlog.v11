@@ -3548,7 +3548,7 @@ lib/readline/doc/rltech.texinfo
 	- documented rl_getc_function and rl_redisplay_function
 
 lib/readline/{callback,readline,rltty,signals}.c
-	- added layer of indirction for terminal prep and deprep, with
+	- added layer of indirection for terminal prep and deprep, with
 	  rl_term_prep_function and rl_term_deprep_function.  These are
 	  set by default to rl_prep_terminal and rl_deprep_terminal,
 	  respectively
