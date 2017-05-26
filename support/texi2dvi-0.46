@@ -205,7 +205,7 @@ fi
 (umask 077 && mkdir $tmpdir) || exit 1
 
 # Prepare the tools we might need.  This may be extra work in some
-# cases, but improves the readibility of the script.
+# cases, but improves the readability of the script.
 utildir=$tmpdir/utils
 mkdir $utildir || exit 1
 
