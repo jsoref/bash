@@ -224,7 +224,7 @@ nojobs.c
 	  thing happens on Posix systems
 
 general.c
-	- updated the comment above the fallback implemenation of killpg()
+	- updated the comment above the fallback implementation of killpg()
 
 machines.h
 	- machine entry for the Unix PC
