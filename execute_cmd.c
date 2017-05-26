@@ -1193,7 +1193,7 @@ mkfmt (buf, prec, lng, sec, sec_fraction)
    An occurrence of `%%' in the format string is translated to a `%'.  The
    result is printed to FP, a pointer to a FILE.  The other variables are
    the seconds and thousandths of a second of real, user, and system time,
-   resectively. */
+   respectively. */
 static void
 print_formatted_time (fp, format, rs, rsf, us, usf, ss, ssf, cpu)
      FILE *fp;
