@@ -5594,7 +5594,7 @@ q.  Some `time_t' fixes for machines were a time_t is bigger than a long.
 
 r.  Replaced some bash-specific autoconf macros with standard equivalents.
 
-s.  Improvmed the code that constructs temporary filenames to make the
+s.  Improved the code that constructs temporary filenames to make the
     generated names a bit more random.
 
 t.  Added code that checks for ascii before calling any of the is* ctype
