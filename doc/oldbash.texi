@@ -5460,7 +5460,7 @@ In other words, @code{"$*"} expands to a single word, whereas
 @code{"$@@"} expands to separate words.
 
 @c replace example
-@c bfox will suppply example with FOR command
+@c bfox will supply example with FOR command
 @example
 bash$ cat a
 this is a file named a
