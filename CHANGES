@@ -4206,7 +4206,7 @@ and the previous version, bash-3.0-beta1.
 
 1.  Changes to Bash
 
-a.  Fixed a bug that caused incorrect behavior when referecing element 0 of
+a.  Fixed a bug that caused incorrect behavior when referencing element 0 of
     an array using $array, element 0 was unset, and `set -u' was enabled.
 
 b.  System-specific changes for: SCO Unix 3.2, Tandem.
