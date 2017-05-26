@@ -4576,7 +4576,7 @@ sig.h
 	- sigterm_sighandler: new extern declaration
 
 quit.h
-	- RESET_SIGTERM: set sigterm_receved to 0
+	- RESET_SIGTERM: set sigterm_received to 0
 	- CHECK_SIGTERM: check sigterm_received; if it's non-zero, treat it
 	  as a fatal signal and call termsig_handler to exit the shell
 
