@@ -471,7 +471,7 @@ $T2H_OPTIONS -> {init_file} =
 # otherwise, do not center by default
 $T2H_CENTER_IMAGE = 1;
 
-# used as identation for block enclosing command @example, etc
+# used as indentation for block enclosing command @example, etc
 # If not empty, must be enclosed in <td></td>
 $T2H_EXAMPLE_INDENT_CELL = '<td>&nbsp;</td>';
 # same as above, only for @small
