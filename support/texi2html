@@ -243,7 +243,7 @@ $T2H_OPTIONS -> {menu} =
 {
  type => '!',
  linkage => \$T2H_SHOW_MENU,
- verbose => 'ouput Texinfo menus',
+ verbose => 'output Texinfo menus',
 };
 
 # -number | -nonumber

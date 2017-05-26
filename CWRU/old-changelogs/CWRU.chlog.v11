@@ -8367,7 +8367,7 @@ Makefile.in
 	- removed `realclean' target
 
 shell.c
-	- changed the first line ouput by bash --version to conform to
+	- changed the first line output by bash --version to conform to
 	  the latest GNU coding standards (replace space between version
 	  and machtype with a hyphen)
 
