@@ -3573,7 +3573,7 @@ _openssl()
 				;;
 			dgst)
 				case $prev in
-					-@(out|sign|verify|prvrify|signature))
+					-@(out|sign|verify|prverify|signature))
 						_filedir
 						return 0
 						;;
