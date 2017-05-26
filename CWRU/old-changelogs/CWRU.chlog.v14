@@ -6636,7 +6636,7 @@ configure.in
 	- add support for configuring coprocesses into and out of the build
 
 jobs.c
-	- in waitchld, check whether or not a coproc processs has exited;
+	- in waitchld, check whether or not a coproc process has exited;
 	  from the bash-4.0-devel tree
 
 				    7/5
