@@ -7794,7 +7794,7 @@ variables.h
 	  merge_builtin_env()
 
 execute_cmd.c
-	- if variable assignments preceds a posix special builtin, and the
+	- if variable assignments precedes a posix special builtin, and the
 	  shell is in posix mode, those assignments should persist in the
 	  shell environment after the builtin completes
 
