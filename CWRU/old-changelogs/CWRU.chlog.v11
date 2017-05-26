@@ -2041,7 +2041,7 @@ lib/readline/readline.c
 	  same as GNU Emacs
 
 lib/readline/search.c
-	- in noninc_dosearch, don't reset the history positition to what
+	- in noninc_dosearch, don't reset the history position to what
 	  it was if we're currently in vi editing mode (as per Posix.2
 	  `/' and `?' vi-mode editing commands)
 

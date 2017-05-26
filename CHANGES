@@ -2718,7 +2718,7 @@ c.  Fixed a bug that caused a file descriptor leak when performing
     redirections attached to a compound command.
 
 d.  Fixed a bug that caused expansions of $@ and $* to not exit the shell if
-    the -u option was enabled and there were no posititional parameters.
+    the -u option was enabled and there were no positional parameters.
 
 e.  Fixed a bug that resulted in bash not terminating immediately if a
     terminating signal was received while performing output.
