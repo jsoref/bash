@@ -7496,7 +7496,7 @@ locale.c
 configure.in
 	- backed out of solaris change from 10/23/2008 (adding `-z interpose'
 	  to LDFLAGS) due to solaris updates to fix a linker problem.
-	  Updatted by Serge Dussud <Serge.Dussud@Sun.COM>
+	  Updated by Serge Dussud <Serge.Dussud@Sun.COM>
 
 				   2/12
 				   ----
