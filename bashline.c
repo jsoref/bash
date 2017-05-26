@@ -275,7 +275,7 @@ int dircomplete_expand_relpath = 0;
 
 /* When non-zero, perform `normal' shell quoting on completed filenames
    even when the completed name contains a directory name with a shell
-   variable referene, so dollar signs in a filename get quoted appropriately.
+   variable reference, so dollar signs in a filename get quoted appropriately.
    Set to zero to remove dollar sign (and braces or parens as needed) from
    the set of characters that will be quoted. */
 int complete_fullquote = 1;
